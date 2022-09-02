@@ -40,14 +40,15 @@ MkDocs를 다음의 명령을 이용해 설치합니다.
 ```
 $ pip install mkdocs
 ```
-### Docs Theme 설치
+### Plugin 설치
 
-Ablestack Docs 사이트는 MkDocs의 Third Party 테마인 Material Theme을 사용합니다. 해당 테마를 개발환경에 설치하여 테마를 적용해야 합니다. 
+Ablestack Docs 사이트는 MkDocs의 Third Party 테마인 Material Theme 및 Mike Plugin 을 사용 합니다. 
+해당 Plugin을  개발환경에 설치하여 적용해야 합니다. 
 
 다음의 명령을 개발환경에서 실행합니다. 
 
 ```
-$ pip install mkdocs-material
+$ pip install mkdocs-material mike
 ```
 ## 개발 참여
 
